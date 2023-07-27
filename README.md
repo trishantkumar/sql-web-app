@@ -10,7 +10,7 @@ npm Dependencies - [CodeMirror](https://www.npmjs.com/package/codemirror), [vue-
 CSS Library - [Tailwind](https://tailwindcss.com/)
 
 ## Demo
-Netlify URL - [url](https://64c23e301e18e86d72b34eb0--precious-otter-00bb6a.netlify.app/)
+Netlify URL - [https://silly-pithivier-d247e6.netlify.app/apiData](https://silly-pithivier-d247e6.netlify.app/apiData)
 
 ## Features
 - Code editor where you can run some sql queries
