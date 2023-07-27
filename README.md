@@ -1,8 +1,12 @@
 # sql-web-app
 
 This is a dummy application to run SQL queries, we have implemented the logic in this way that you can perform some SQL queries like select and delete.
+
 Vue version - In this we are using Vue 3 with composition API.
-npm Dependencies - [codemirror](https://www.npmjs.com/package/codemirror)
+
+npm Dependencies - [CodeMirror](https://www.npmjs.com/package/codemirror), [vue-router](https://v3.router.vuejs.org/guide/),
+[vue3-pagination](https://www.npmjs.com/package/@hennge/vue3-pagination), [axios](https://www.npmjs.com/package/axios)
+
 CSS Library - [Tailwind](https://tailwindcss.com/)
 
 ## Demo
@@ -24,6 +28,10 @@ We can perform the following queries in this dummy web app -
 - Delete * from table_name where id = 2 - Delete data from any table based on id or any other field like country, age, city.
 
 Note - Replace table_name with actual table name (customers or products)
+
+- To render a large amount of rows we can lazy load the component, use infinite scrolling or we can also use pagination.
+In this web app, we have /apiData route where we fetched products data from dummy json api and display with pagination.
+
 
 ## Page loading report
 Measured by Google Chrome Lighthouse
