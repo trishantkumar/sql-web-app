@@ -1,6 +1,6 @@
 # sql-web-app
 
-This is a dummy application to run SQL queries, we have implemented the logic in this way that you can perform some SQL queries like select and delete.
+This is a dummy application to run SQL queries, we have implemented the logic in this way that you can perform some SQL queries like select and delete on customers and products tabele apart from that we have also added a drop-down that have some pre-definded queries.
 
 Vue version - In this we are using Vue 3 with composition API.
 
@@ -17,6 +17,7 @@ Netlify URL - [https://silly-pithivier-d247e6.netlify.app/](https://silly-pithiv
 - Dropdown in which we have some pre-defined queries
 - Clear button to clear editor
 - Exceute query button that run queries that are write in code editor
+- On Home page we have "Go to Products Api page", where we are displaying dynamic data with lazy loading and pagination.
 
 ## Web application details
 In this we have 2 tables customers and products that I have stored statically in data.json file.
