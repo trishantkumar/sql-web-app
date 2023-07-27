@@ -27,7 +27,7 @@ Note - Replace table_name with actual table name (customers or products)
 
 ## Page loading report
 Measured by Google Chrome Lighthouse
-[Image](https://ibb.co/PgVrZTf)
+[Image](https://ibb.co/bv9M4qs)
 
 Optimisations to enhance loading time -
 - Add meta description for SEO
