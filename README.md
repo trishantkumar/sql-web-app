@@ -6,7 +6,7 @@ npm Dependencies - [codemirror](https://www.npmjs.com/package/codemirror)
 CSS Library - [Tailwind](https://tailwindcss.com/)
 
 ## Demo
-URL - [url](url)
+Netlify URL - [url](https://64c23e301e18e86d72b34eb0--precious-otter-00bb6a.netlify.app/)
 
 ## Features
 - Code editor where you can run some sql queries
@@ -16,12 +16,14 @@ URL - [url](url)
 
 ## Web application details
 In this we have 2 tables customers and products that I have stored statically in data.json file.
-We can perform the following queries in this dummy web app-
+We can perform the following queries in this dummy web app -
 - show tables - Display table names
 - Select * from table_name - Display all data from table
 - Select * from table_name where stock > 50 - Display all data from table where stock is more than 50 (Here we can select any combination from any table to display data such as id = 2, email = john@example.com)
 - Select name, email from table_name where city is Delhi - Display name and email column from table where city is delhi. (Here we can select any column combination from any table to display data such name, email, id, city).
 - Delete * from table_name where id = 2 - Delete data from any table based on id or any other field like country, age, city.
+
+Note - Replace table_name with actual table name (customers or products)
 
 ## Page loading report
 Measured by Google Chrome Lighthouse
